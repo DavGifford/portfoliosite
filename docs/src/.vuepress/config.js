@@ -60,6 +60,7 @@ module.exports = {
     }
   },
 
+  base: '/portfoliosite/',
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
@@ -67,4 +68,5 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
   ]
+  
 }
