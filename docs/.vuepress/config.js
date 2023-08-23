@@ -4,7 +4,7 @@ module.exports = {
     lang: 'en-US',
     title: 'My Portfolio',
     description: 'Static Site Genrator',
-    base: '/mtm6407-static-site-giff0065/docs/',
+    base: '/portfoliosite/',
     theme: defaultTheme({
         layout: 'CustomLayout',
         navbar: [
