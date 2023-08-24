@@ -1,4 +1,3 @@
-import { defaultTheme } from 'vuepress'
 
 module.exports = {
     lang: 'en-US',
