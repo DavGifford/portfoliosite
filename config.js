@@ -1,4 +1,3 @@
-
 module.exports = {
     lang: 'en-US',
     title: `David Gifford's Portfolio`,
