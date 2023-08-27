@@ -1,5 +1,3 @@
-import { defaultTheme } from '@vuepress/theme-default'
-
 module.exports = {
     lang: 'en-US',                      // Language for the site
     title: `David Gifford's Portfolio`, // Title of the site
