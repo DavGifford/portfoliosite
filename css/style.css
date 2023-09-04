@@ -102,6 +102,7 @@ nav a:hover {
     position: relative;
     display: inline-block;
     margin: 10px;
+
 }
 
 .image-link {
@@ -124,3 +125,4 @@ nav a:hover {
 .image-container img {
     filter: blur(2.5px);
 }
+
