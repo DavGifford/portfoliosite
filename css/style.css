@@ -49,19 +49,39 @@ table {
 
 /* RESET DONE */
 /* Body Width */
-main {
+main {   
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.indexImages, h1, h2, .welcomeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 /* FONTS */
 
 p, li {
     font-family: 'Open Sans', sans-serif;
     margin: 5px;
+    font-size: 15px;
+    line-height: 1.25;
 }
 h1, h2, h3, nav{
     font-family: 'Raleway', sans-serif;
 }
+/* Font sizing */
+h1{
+    font-size: 30px;
+    margin: 5px;
+}
+
+h2, h3{
+    font-size: 20px;
+    margin: 3px;
+}
+
 
 
 /* NAV BAR */
@@ -100,8 +120,10 @@ nav a:hover {
 /* Index Images */
 .image-container {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: 10px;
+    max-width: 300px;
 
 }
 
@@ -120,9 +142,15 @@ nav a:hover {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .image-container img {
     filter: blur(2.5px);
 }
 
+/* Resume */
+.resumeMain ul{
+    list-style-type: square;
+}
