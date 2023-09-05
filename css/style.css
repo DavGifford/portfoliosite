@@ -156,7 +156,9 @@ nav a:hover {
 }
 
 /* graphics */
-
+.g-image{
+    max-width: 300px;
+}
 /* photography */
 .button-link{
     display: inline-block;
